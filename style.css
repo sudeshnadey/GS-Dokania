@@ -281,7 +281,7 @@ a.btn2 {
 .fea-para {
   width: 300px;
   height: 100px;
- padding-top: 20px;
+  padding-top: 20px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 400;
@@ -451,7 +451,7 @@ a.btn2 {
 }
 
 .formbox {
- 
+
   box-sizing: border-box;
   margin-top: 59px;
   margin-bottom: 59px;
@@ -697,9 +697,9 @@ h1.abouth2 {
 }
 
 .middle-right2 {
-  margin-top: 30px;
+  margin-top: 10px;
   padding-top: 20px;
-  margin-left: 70px;
+  margin-left: 50px;
   color: #228DAF;
 }
 
@@ -711,7 +711,7 @@ h1.abouth2 {
 .about-left {
   width: 657px;
   height: 70.02px;
-  margin-left:-100px;
+  margin-left: -100px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 600;
@@ -1113,10 +1113,12 @@ h1.onlineh2 {
   margin-bottom: 86px;
 
 }
-
+.servicesec3{
+  background-color: white;
+}
 .servicesec2 {
   background-color: white;
-  height: 580px;
+  height: 550px;
 }
 
 .service-online {
@@ -1139,11 +1141,11 @@ h1.onlineh2 {
 .serviceon-left {
 
   position: absolute;
-  width: 769px;
+  width: 839px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 120%;
   letter-spacing: -0.025em;
   color: #00475D;
@@ -1304,11 +1306,9 @@ a.btn4 {
 
 .card3 {
   box-sizing: border-box;
+  width: 295px;
+  height: 442px;
 
-  width: 255px;
-  height: 382px;
-  left: 100px;
-  top: 174px;
   background: linear-gradient(180deg, rgba(142, 199, 210, 0.17) 0%, rgba(142, 199, 210, 0.27) 100%);
   border: 1px solid #8EC7D2;
   border-radius: 20px;
@@ -1325,10 +1325,10 @@ a.btn4 {
 }
 
 .parasevicebox {
-  width: 220px;
+  width: 252px;
   height: 250px;
-  padding-top: 40px;
-  padding-left: 30px;
+  padding-top: 80px;
+  padding-left: 40px;
   padding-right: -40px;
   font-family: 'Work Sans';
   font-style: normal;
@@ -1344,6 +1344,7 @@ a.btn4 {
 }
 
 .section6_bolder {
+  width: 1080px;
   padding-top: 103px;
   font-family: 'Work Sans';
   font-style: normal;
@@ -1357,6 +1358,7 @@ a.btn4 {
 }
 
 .service-step1 {
+  width: 1080px;
   padding-top: 30px;
   font-family: 'Work Sans';
   font-style: normal;
@@ -1368,11 +1370,11 @@ a.btn4 {
 }
 
 .parestep1 {
-  width: 1238px;
+  width: 1080px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 140%;
   align-items: center;
   color: #746F79;
@@ -1419,7 +1421,7 @@ a.btn5 {
 
 .servicefree {
   padding-bottom: 55px;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 .li3 {
@@ -1476,7 +1478,7 @@ a.btn5 {
 .services-li4 {
   font-family: 'Work Sans';
   font-style: normal;
-  font-weight: 540;
+  font-weight: 500;
   font-size: 18px;
   line-height: 140%;
   color: #746F79;
@@ -1531,6 +1533,7 @@ a.btn5 {
 
 .service8 {
   background-color: #d5eeee;
+  height: 620px;
 }
 
 .section8_bolder {
@@ -1573,7 +1576,7 @@ a.btn6 {
 
 .sec9_bolder {
   width: 1080px;
-  margin-top: 90px;
+  
   padding-bottom: 34px;
   font-family: 'Work Sans';
   font-style: normal;
@@ -1759,11 +1762,11 @@ a.btn6 {
 }
 
 .sectionroc-bolder {
-  width: 1000px;
+  width: 1280px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 120%;
   display: flex;
   align-items: center;
@@ -1780,16 +1783,17 @@ a.btn6 {
   font-weight: 600;
   font-size: 20px;
   line-height: 140%;
-align-items: center;
+  align-items: center;
   color: #00475D;
 
 
 }
+
 /*............................................IEC registration .................................................*/
 .IECsec {
   background-color: rgba(199, 212, 214, 0.27);
   margin-top: -48px;
- 
+
 }
 
 .IEC-box {
@@ -1823,336 +1827,390 @@ align-items: center;
   line-height: 140%;
   color: #746F79;
 }
-.image11{
+
+.image11 {
   height: 100%;
 }
-.image12{
-height: 70%;
-width: 70%;
+
+.image12 {
+  height: 50%;
+  width: 50%;
 }
-.servicesIRC{
+
+.servicesIRC {
   background-color: #0D6986;
-  height: 279px;
+  height: 289px;
 }
-.serviceIRC3{
+
+.serviceIRC3 {
   background-color: white;
 }
-.li8{
+
+.li8 {
   font-family: 'Work Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 140%;
-align-items: center;
-color: #00475D;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  align-items: center;
+  color: #00475D;
 }
+
 /*............................................FSAIregistration .................................................*/
-.servicesFSAI{
-  background-color:  #0D6986;
+.servicesFSAI {
+  background-color: #0D6986;
 }
-.li12{
-  width:1000px;
-  font-family: 'Work Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 140%;
-color: #FFFFFF;
-}
-.fsaipara{
+
+.li12 {
   width: 1000px;
   font-family: 'Work Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 140%;
-color: #FFFFFF;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
 }
-.li13{
+
+.fsaipara {
   width: 1000px;
   font-family: 'Work Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 140%;
-color: #746F79;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
 }
+
+.li13 {
+  width: 1000px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #746F79;
+}
+
 /*............................................MSME registration .................................................*/
-.services-bheadMSME{
-  width:1080px;
+.services-bheadMSME {
+  width: 1080px;
   font-family: 'Work Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 120%;
-letter-spacing: -0.025em;
-color: #00475D;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: -0.025em;
+  color: #00475D;
 
 
 }
-.li12M{
-  width:1080px;
+
+.li12M {
+  width: 1080px;
   font-family: 'Work Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 140%;
-align-items: center;
-color: #00475D;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  align-items: center;
+  color: #00475D;
 }
-.servicesMSME2{
-background-color:  rgba(142, 199, 210, 0.27);
+
+.servicesMSME2 {
+  background-color: rgba(142, 199, 210, 0.27);
 }
+
 /*............................................TRED registration .................................................*/
-.sectiontred_bolder{
-  width:1080px;
+.sectiontred_bolder {
+  width: 1080px;
   font-family: 'Work Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 120%;
-letter-spacing: -0.025em;
-color: #00475D;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: -0.025em;
+  color: #00475D;
 
 
 }
-.services-tred{
-  width:1080px;
+
+.services-tred {
+  width: 1080px;
   font-family: 'Work Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 140%;
-color: #746F79;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #746F79;
 
 
 }
 
 .sectiontrad_bolder {
-  width: 1080px;
+  width: 1280px;
   font-family: 'Work Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 100%;
-display: flex;
-align-items: center;
-letter-spacing: -0.025em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.025em;
 
-color: #FFFFFF;
+  color: #FFFFFF;
 
 
 }
-.li14{
+
+.li14 {
   width: 1080px;
   font-family: 'Work Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 140%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
 
-align-items: center;
+  align-items: center;
 
-color: #FFFFFF;
+  color: #FFFFFF;
 
 }
-.servicetred3{
+
+.servicetred3 {
   background-color: rgba(142, 199, 210, 0.27);
- 
+
 }
-.sectiontrad2_bolder{
+
+.sectiontrad2_bolder {
+  width: 1080px;
   font-family: 'Work Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 120%;
-letter-spacing: -0.025em;
-color: #00475D;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: -0.025em;
+  color: #00475D;
 
 
 }
+
 /*............................................BookKep-registration .................................................*/
-.servicebook{
+.servicebook {
   background-color: #0D6986;
 }
-.parestepbook{
+
+.parestepbook {
   width: 1080px;
   font-family: 'Work Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 140%;
-display: flex;
-align-items: center;
-color: #FFFFFF;
-
-
-}
-.li8book{
-  width: 1080px;
-  font-family: 'Work Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 140%;
-align-items: center;
-color: #FFFFFF;
-
-
-}
-.btn7{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
   display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 12px 28px;
-gap: 10px;
-width: 236px;
-height: 45px;
-left: 113px;
-top: 780px;
+  align-items: center;
+  color: #FFFFFF;
 
-background: #ffffff;
-border-radius: 10px;
-}
-a.btn7{
 
-font-family: 'Work Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 140%;
-display: flex;
-align-items: center;
-color: #00475D;
 }
-.sectionbook_bolder{
+
+.li8book {
   width: 1080px;
   font-family: 'Work Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 120%;
-display: flex;
-align-items: center;
-letter-spacing: -0.025em;
-color: #FFFFFF;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  align-items: center;
+  color: #FFFFFF;
+
 
 }
-.image12{
 
-  height: 150%;
- 
+.btn7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 28px;
+  gap: 10px;
+  width: 236px;
+  height: 45px;
+  left: 113px;
+  top: 780px;
+
+  background: #ffffff;
+  border-radius: 10px;
 }
-.IECsec2{
+
+a.btn7 {
+
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #00475D;
+}
+
+.sectionbook_bolder {
+  width: 1080px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.025em;
+  color: #FFFFFF;
+
+}
+
+.image12 {
+
+  height: 100%;
+
+}
+
+.IECsec2 {
   margin-top: 50px;
   background-color: rgba(142, 199, 210, 0.27);
 
-  
-}
-
-.sectionbookkep_bolder{
-width: 1080px;
-font-family: 'Work Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 120%;
-display: flex;
-align-items: center;
-letter-spacing: -0.025em;
-color: #FFFFFF;
-
 
 }
-.serviceitrfill{
+
+.sectionbookkep_bolder {
+  width: 1080px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.025em;
+  color: #FFFFFF;
+
+
+}
+
+.serviceitrfill {
   background-color: rgba(142, 199, 210, 0.27);
 }
-.IECsec3{
+
+.IECsec3 {
   background-color: rgba(142, 199, 210, 0.27);
 }
-.serviceonlineCA{
+
+.serviceonlineCA {
   margin-top: 300px;
   background-color: rgba(142, 199, 210, 0.27);
 }
-.serviceBook4{
+
+.serviceBook4 {
   background-color: #0D6986;
 }
-.section6_bolderBook{
-width: 1080px;
-font-family: 'Work Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 120%;
-align-items: center;
-letter-spacing: -0.025em;
-color: #FFFFFF;
 
-}
-.service-step1Book{
+.section6_bolderBook {
   width: 1080px;
   font-family: 'Work Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 140%;
-display: flex;
-align-items: center;
-color: #FFFFFF;
-
-
-}
-.li8Book{
-  font-family: 'Work Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 140%;
-align-items: center;
-color: #FFFFFF;
-
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  align-items: center;
+  letter-spacing: -0.025em;
+  color: #FFFFFF;
 
 }
-.parestep1Book{
+
+.service-step1Book {
   width: 1080px;
   font-family: 'Work Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 140%;
-display: flex;
-align-items: center;
-color: #FFFFFF;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+
+
 }
+
+.li8Book {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  align-items: center;
+  color: #FFFFFF;
+
+
+}
+
+.parestep1Book {
+  width: 1080px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
 /* ..........................................GST-REGISTRATION................................*/
+.paraaboutGST {
+  margin-top: -30px;
+  width: 700px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 380;
+  font-size: 16px;
 
-.serviceGST{
+  color: #746F79;
+
+
+}
+
+.card {
+  width: 385px;
+  height:430px;
+}
+
+.serviceGST {
   background-color: rgba(142, 199, 210, 0.27);
 }
-.sectionGST_bolder{
-  width: 1080px;
-  font-family: 'Work Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 120%;
-display: flex;
-align-items: center;
-letter-spacing: -0.025em;
 
-/* Green/1 */
-color: #00475D;
+.sectionGST_bolder {
+  width: 1180px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.025em;
+
+  /* Green/1 */
+  color: #00475D;
 
 
 }
-.li8book2{
+
+.li8book2 {
   font-family: 'Work Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-align-items: center;
-color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  align-items: center;
+  color: #FFFFFF;
 
 
 }
