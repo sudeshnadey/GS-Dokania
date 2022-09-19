@@ -35,7 +35,7 @@ h2 {
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 45px;
   line-height: 59px;
   letter-spacing: -0.02em;
   color: #ffffff;
@@ -243,6 +243,7 @@ a.btn2 {
 /* section-2 */
 .home2 {
   background-color: rgb(224, 241, 243);
+
 }
 
 .hometext {
@@ -278,11 +279,9 @@ a.btn2 {
 }
 
 .fea-para {
-  width: 293px;
+  width: 300px;
   height: 100px;
-  left: 100px;
-  top: 348px;
-  padding-top: 20px;
+ padding-top: 20px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 400;
@@ -391,6 +390,7 @@ a.btn2 {
 }
 
 .card {
+
   border-radius: 40px;
   border: 1px solid #8EC7D2;
   margin-bottom: 59px;
@@ -656,6 +656,7 @@ h1.abouth2 {
 }
 
 .listhead {
+  width: 500px;
   padding-right: 150px;
   font-family: 'Work Sans';
   font-style: normal;
@@ -1132,9 +1133,6 @@ h1.onlineh2 {
 }
 
 .card {
-  width: 385px;
-  height: 345px;
-
   background: #FFFFFF;
 }
 
