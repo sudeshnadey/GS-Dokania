@@ -586,7 +586,7 @@ footer a:hover {
   color: #A3A0A7;
 }
 
-/* .............................................About Section.......................................... */
+/* .............................................-left Section.......................................... */
 
 .about3 {
   background-color: #FFFFFF;
@@ -643,7 +643,7 @@ h1.abouth2 {
 
 .paraabout {
   margin-top: -40px;
-  width: 550px;
+  width: 600px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 500;
@@ -657,8 +657,8 @@ h1.abouth2 {
 }
 
 .listhead {
-  width: 500px;
-  padding-right: 150px;
+  width: 700px;
+  padding-left: 110px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 500;
@@ -709,21 +709,20 @@ h1.abouth2 {
 }
 
 .about-left {
-  width: 607px;
+  width: 657px;
   height: 70.02px;
-  margin-left: 84px;
-
+  margin-left:-100px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 120%;
   letter-spacing: -0.025em;
   color: #00475D;
 }
 
 .aboutpara2 {
-  width: 495px;
+  width: 595px;
   height: 111.6px;
   margin-left: 0px;
   margin-top: 15.84px;
@@ -758,7 +757,7 @@ a.btn_about {
 }
 
 .about4-left {
-  width: 571px;
+  width: 651px;
   height: 76px;
   left: 0px;
   margin-top: 50px;
@@ -806,7 +805,7 @@ a.btn_about {
 }
 
 .about-left5 {
-  width: 580px;
+  width: 680px;
   height: 76px;
   margin-left: 22px;
   margin-top: 54.65px;
@@ -822,7 +821,7 @@ a.btn_about {
 }
 
 .aboutpara5 {
-  width: 560px;
+  width: 660px;
   left: 634px;
   margin-top: 30.65px;
   font-family: 'Work Sans';
