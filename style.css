@@ -1113,9 +1113,11 @@ h1.onlineh2 {
   margin-bottom: 86px;
 
 }
-.servicesec3{
+
+.servicesec3 {
   background-color: white;
 }
+
 .servicesec2 {
   background-color: white;
   height: 550px;
@@ -1490,7 +1492,7 @@ a.btn5 {
 }
 
 .services-bhead {
-
+  width: 1080px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 600;
@@ -1576,7 +1578,7 @@ a.btn6 {
 
 .sec9_bolder {
   width: 1080px;
-  
+
   padding-bottom: 34px;
   font-family: 'Work Sans';
   font-style: normal;
@@ -2180,7 +2182,7 @@ a.btn7 {
 
 .card {
   width: 385px;
-  height:430px;
+  height: 430px;
 }
 
 .serviceGST {
