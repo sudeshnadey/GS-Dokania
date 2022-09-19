@@ -424,13 +424,13 @@ a.btn2 {
 }
 
 .mid_bolder {
-  width: 585px;
+  width: 685px;
   height: 76px;
   margin-top: 53px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 120%;
   letter-spacing: -0.025em;
   color: #00475D;
@@ -451,6 +451,7 @@ a.btn2 {
 }
 
 .formbox {
+ 
   box-sizing: border-box;
   margin-top: 59px;
   margin-bottom: 59px;
