@@ -332,7 +332,7 @@ a.btn2 {
 }
 
 .li {
-  list-style: url(/icon/homeicon/Vecto.svg);
+  list-style: url(icon/homeicon/Vecto.svg);
 }
 
 .reasonar-b {
@@ -620,7 +620,7 @@ footer a:hover {
 .headeraboutus::before {
   content: "";
   position: absolute;
-  background: linear-gradient(rgba(13, 105, 134, 0.9), rgba(13, 105, 134, 0.9)), url(/image/about/bgabout.png) no-repeat center center/cover;
+  background: linear-gradient(rgba(13, 105, 134, 0.9), rgba(13, 105, 134, 0.9)), url(image/about/bgabout.png) no-repeat center center/cover;
   height: 450px;
   top: 0px;
   left: 0px;
@@ -667,7 +667,7 @@ h1.abouth2 {
 }
 
 .li9 {
-  list-style: url(/icon/aboticon/a1.svg);
+  list-style: url(icon/aboticon/a1.svg);
 }
 
 .listhead {
@@ -859,7 +859,7 @@ a.btn_about {
 .headercontacttus::before {
   content: "";
   position: absolute;
-  background: linear-gradient(rgba(13, 105, 134, 0.9), rgba(13, 105, 134, 0.9)), url(/image/servie/unsplash_FlPc9_VocJ4.png) no-repeat center center/cover;
+  background: linear-gradient(rgba(13, 105, 134, 0.9), rgba(13, 105, 134, 0.9)), url(image/servie/unsplash_FlPc9_VocJ4.png) no-repeat center center/cover;
   height: 450px;
   top: 0px;
   left: 0px;
@@ -1110,12 +1110,14 @@ h1.bloghead2 {
   margin-left: -50px;
   width: 90px;
 }
-.union2{
+
+.union2 {
   margin-top: 55px;
   height: 13px;
   margin-left: -10px;
   width: 50px;
 }
+
 .recent {
   height: 25px;
   display: flex;
@@ -1125,13 +1127,156 @@ h1.bloghead2 {
   font-weight: 500;
   font-size: 18px;
   line-height: 140%;
-  
+
   /* Green/2 */
   color: #0D6986;
+}
+
+.para12 {
+  margin-left: -100px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.333333px;
+  color: #746F79;
 
 
 }
 
+.blog-left {
+  width: 700px;
+  margin-left: -100px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 59px;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #00475D;
+
+
+}
+
+.blogpara2 {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  align-items: center;
+  letter-spacing: -0.025em;
+
+  color: #746F79;
+
+}
+
+.imageblog {
+  height: 100%;
+}
+
+.linkblog {
+  position: relative;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  align-items: center;
+  letter-spacing: -0.025em;
+  color: #4070F6;
+}
+
+.linkblog:after {
+  margin-left: -80px;
+  content: '';
+  position: absolute;
+  background: #4070F6;
+  border: 2px solid #4070F6;
+  bottom: -10px;
+  height: 1px;
+  width: 91.32px;
+
+}
+.post{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(280px, auto));
+  justify-content:center;
+  gap:1.5rem;
+}
+.post-box {
+  align-items: flex-start;
+  
+  flex-direction: column;
+  width: 370px;
+}
+
+.jan-box {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.333333px;
+  color: #746F79;
+
+
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  width: 380px;
+}
+
+.address {
+  width: 300px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  display: flex;
+  line-height: 120%;
+  text-align: justify;
+  letter-spacing: -0.025em;
+  color: #00475D;
+
+
+}
+
+.address2 {
+  width: 300px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  letter-spacing: -0.333333px;
+
+  /* Text color/2 */
+  color: #746F79;
+
+
+}
+
+.frame-container{
+align-items: flex-start;
+display: flex;
+flex-direction: column;
+width:380px;
+}
+.frame-container-1{
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 45px;
+  width:380px;
+  }
 /* ------------------services (Online Company registration)-------------------------------- */
 .headerserviceonline {
   color: #FFFFFF;
@@ -1143,7 +1288,7 @@ h1.bloghead2 {
 .headerserviceonline::before {
   content: "";
   position: absolute;
-  background: linear-gradient(rgba(13, 105, 134, 0.9), rgba(13, 105, 134, 0.9)), url(/image/servie/unsplash_FlPc9_VocJ4.png) no-repeat center center/cover;
+  background: linear-gradient(rgba(13, 105, 134, 0.9), rgba(13, 105, 134, 0.9)), url(image/servie/unsplash_FlPc9_VocJ4.png) no-repeat center center/cover;
   height: 450px;
   top: 0px;
   left: 0px;
@@ -1232,7 +1377,7 @@ h1.onlineh2 {
 }
 
 .li2 {
-  list-style: url(/image/servie/Group.svg);
+  list-style: url(image/servie/Group.svg);
 }
 
 .image9 {
@@ -1496,7 +1641,7 @@ a.btn5 {
 }
 
 .li3 {
-  list-style: url(/image/servie/li3.svg);
+  list-style: url(image/servie/li3.svg);
 }
 
 .servicesec7 {
@@ -1773,7 +1918,7 @@ a.btn6 {
 }
 
 .li10 {
-  list-style: url(/image/servie/li10.svg);
+  list-style: url(image/servie/li10.svg);
 }
 
 /*............................................Nidhi Registration .................................................*/
