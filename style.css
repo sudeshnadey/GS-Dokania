@@ -399,7 +399,8 @@ a.btn2 {
   border: 1px solid #8EC7D2;
   margin-bottom: 59px;
 }
-.card5{
+
+.card5 {
   width: 330px;
   height: 380px;
   border-radius: 40px;
@@ -407,6 +408,7 @@ a.btn2 {
   margin-bottom: 59px;
   background-color: white;
 }
+
 .pro-base {
   margin-bottom: 20px;
   font-family: 'Work Sans';
@@ -450,8 +452,7 @@ a.btn2 {
 }
 
 .change {
-  width:700
-  px;
+  width: 700 px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 500;
@@ -1080,6 +1081,56 @@ h1.bloghead2 {
   padding: 3px 3px;
 }
 
+.blog2 {
+  background-color: #ffffff;
+}
+
+.post-filter {
+  display: flex;
+  column-gap: 1.5rem;
+}
+
+.frame-item {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #746F79;
+  margin-top: -1px;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.union {
+  margin-top: 55px;
+  height: 16px;
+  margin-left: -50px;
+  width: 90px;
+}
+.union2{
+  margin-top: 55px;
+  height: 13px;
+  margin-left: -10px;
+  width: 50px;
+}
+.recent {
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  
+  /* Green/2 */
+  color: #0D6986;
+
+
+}
 
 /* ------------------services (Online Company registration)-------------------------------- */
 .headerserviceonline {
@@ -1133,11 +1184,12 @@ h1.onlineh2 {
 
 .servicesec2 {
   background-color: white;
- height: 300px;
+  height: 300px;
 }
+
 .servicesec9 {
   background-color: white;
- 
+
 }
 
 .service-online {
@@ -1552,7 +1604,7 @@ a.btn5 {
 
 .service8 {
   background-color: #d5eeee;
-  
+
 }
 
 .section8_bolder {
@@ -2095,7 +2147,7 @@ a.btn7 {
 }
 
 .IECsec2 {
-  
+
   background-color: rgba(142, 199, 210, 0.27);
 
 
