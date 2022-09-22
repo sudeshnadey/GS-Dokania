@@ -1085,6 +1085,59 @@ h1.bloghead2 {
   background-color: #ffffff;
 }
 
+.number {
+  align-items: flex-start;
+  justify-content: center;
+}
+.frame1{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  margin-right: 10px;
+  margin-left: 0px;
+  white-space: nowrap;
+  align-items: center;
+  letter-spacing: -0.333333px;
+  color: #00475D;
+
+}
+a.frame{
+  color: #A3A0A7;
+}
+.frame {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  margin-right: 10px;
+  margin-left: 0px;
+  white-space: nowrap;
+  align-items: center;
+  letter-spacing: -0.333333px;
+
+  /* Text color/3 */
+  color: #A3A0A7;
+
+
+}
+
+.union1 {
+  margin-top: 50px;
+  height: 13px;
+  margin-left: -30px;
+  width: 50px;
+}
+
+.union3 {
+  margin-top: 50px;
+  height: 13px;
+  margin-left: -10px;
+  width: 50px;
+}
+
 .post-filter {
   display: flex;
   column-gap: 1.5rem;
@@ -1202,15 +1255,17 @@ h1.bloghead2 {
   width: 91.32px;
 
 }
-.post{
+
+.post {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(280px, auto));
-  justify-content:center;
-  gap:1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+  justify-content: center;
+  gap: 1.5rem;
 }
+
 .post-box {
   align-items: flex-start;
-  
+
   flex-direction: column;
   width: 370px;
 }
@@ -1264,19 +1319,21 @@ h1.bloghead2 {
 
 }
 
-.frame-container{
-align-items: flex-start;
-display: flex;
-flex-direction: column;
-width:380px;
+.frame-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  width: 380px;
 }
-.frame-container-1{
+
+.frame-container-1 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
   margin-left: 45px;
-  width:380px;
-  }
+  width: 380px;
+}
+
 /* ------------------services (Online Company registration)-------------------------------- */
 .headerserviceonline {
   color: #FFFFFF;
