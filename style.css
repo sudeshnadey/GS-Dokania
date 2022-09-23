@@ -1223,7 +1223,7 @@ a.frame{
   line-height: 140%;
   align-items: center;
   letter-spacing: -0.025em;
-
+  width: 585.77px;
   color: #746F79;
 
 }
@@ -1265,9 +1265,8 @@ a.frame{
 
 .post-box {
   align-items: flex-start;
-
   flex-direction: column;
-  width: 370px;
+  width: 350px;
 }
 
 .jan-box {
@@ -1278,8 +1277,6 @@ a.frame{
   line-height: 14px;
   letter-spacing: -0.333333px;
   color: #746F79;
-
-
   justify-content: center;
   flex-direction: column;
   display: flex;
@@ -1287,7 +1284,7 @@ a.frame{
 }
 
 .address {
-  width: 300px;
+  width: 320px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 600;
@@ -1300,9 +1297,11 @@ a.frame{
 
 
 }
-
+.post-img{
+  width: 330px;
+}
 .address2 {
-  width: 300px;
+  width: 320px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 400;
