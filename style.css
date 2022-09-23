@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #0D6986;
 }
 
 a {
@@ -177,6 +177,7 @@ p {
 
 .header1 {
   color: rgb(2, 2, 2);
+
 }
 
 .col-sm-6 .size {
@@ -195,7 +196,7 @@ p {
 }
 
 
-header {
+.header {
   color: #FFFFFF;
   position: relative;
   background-color: #0D6986;
@@ -387,7 +388,7 @@ a.btn2 {
 .product {
   height: 45.66666793823242px;
   width: 58.66666793823242px;
-  margin-left: 110px;
+  margin-left: 90px;
   margin-top: 50px;
   margin-bottom: 30px;
 }
