@@ -1374,7 +1374,39 @@ color: #746F79;
 .blogus{
   background: #0D6986;
 }
+.post-view{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
 
+
+  /* Text color/1 */
+  color: #00475D;
+  
+  
+
+}
+.post-view1{
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+margin-left: -510px;
+
+  /* Text color/1 */
+  color: #00475D;
+  
+  
+
+}
+
+.graph{
+  height: 23px;
+ width: 50px;
+}
 /* ------------------services (Online Company registration)-------------------------------- */
 .headerserviceonline {
   color: #FFFFFF;
