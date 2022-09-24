@@ -1217,7 +1217,43 @@ a.frame{
 
 
 }
+.blogpara4{
+  width: 1240px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #746F79;
+}
+.li20{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+align-items: center;
 
+/* Text color/2 */
+color: #746F79;
+
+
+}
+.blogpara3{
+
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  margin-left: -80px;
+  font-size: 16px;
+  line-height: 140%;
+  align-items: center;
+  letter-spacing: -0.025em;
+  width: 585.77px;
+  color: #746F79;
+}
 .blogpara2 {
   font-family: 'Work Sans';
   font-style: normal;
@@ -1334,6 +1370,9 @@ a.frame{
   flex-direction: column;
   margin-left: 45px;
   width: 380px;
+}
+.blogus{
+  background: #0D6986;
 }
 
 /* ------------------services (Online Company registration)-------------------------------- */
