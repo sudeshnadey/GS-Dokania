@@ -1224,7 +1224,7 @@ a.frame{
 
 }
 .blogpara4{
-  width: 1240px;
+  width: 1180px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 400;
@@ -1248,13 +1248,11 @@ color: #746F79;
 
 }
 .blogpara3{
-
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 400;
-  margin-left: -80px;
   font-size: 16px;
-  line-height: 140%;
+ 
   align-items: center;
   letter-spacing: -0.025em;
   width: 585.77px;
@@ -1275,6 +1273,7 @@ color: #746F79;
 
 .imageblog {
   height: 100%;
+  width: 100%;
 }
 
 .linkblog {
