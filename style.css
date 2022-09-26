@@ -265,8 +265,6 @@ a.btn2 {
 .fea-box2 {
   height: 41.66666793823242px;
   width: 41.66666793823242px;
-  left: 4.1669921875px;
-  top: 4.16650390625px;
   border-radius: 0px;
   left: 8.33%;
   right: 8.33%;
@@ -302,7 +300,7 @@ a.btn2 {
 }
 
 .reasonar-right {
-
+padding-right: 50px;
   padding-top: 50px;
   padding-left: 50px;
   margin-top: 24px;
