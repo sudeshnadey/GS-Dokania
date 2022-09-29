@@ -313,10 +313,6 @@ a.btn2 {
 
 .reasonar-box {
   padding-bottom: 27px;
-  width: 493px;
-  height: 38px;
-  left: 470px;
-  top: 64px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 600;
@@ -828,11 +824,14 @@ a.btn_about {
 .image7 {
   margin-top: 30px;
 }
-
+.image8 {
+  margin-top: 30px;
+}
+.image21 {
+  margin-top: 30px;
+}
 .about-left5 {
-  
-  margin-left: -22px;
-  margin-top: 54.65px;
+ margin-left: -22px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 520;
@@ -840,12 +839,9 @@ a.btn_about {
   line-height: 120%;
   letter-spacing: -0.025em;
   color: #00475D;
-
-
 }
 
 .aboutpara5 {
- 
   margin-top: 30.65px;
   font-family: 'Work Sans';
   font-style: normal;
@@ -1433,7 +1429,7 @@ a.frame {
 /* ------------------services (Online Company registration)-------------------------------- */
 .headerserviceonline {
   color: #FFFFFF;
-  padding: 3px 200px;
+  padding: 3px 20px;
   justify-content: center;
   align-items: center;
 }
@@ -1482,7 +1478,6 @@ h1.onlineh2 {
 
 .servicesec2 {
   background-color: white;
-  height: 530px;
 }
 
 .servicesec9 {
@@ -1491,10 +1486,7 @@ h1.onlineh2 {
 }
 
 .service-online {
-  width: 284px;
-  height: 50px;
-  left: 102px;
-  top: 231px;
+
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 500;
@@ -1508,9 +1500,9 @@ h1.onlineh2 {
 }
 
 .serviceon-left {
-
+width:700px;
   position: absolute;
-  width: 839px;
+ 
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 600;
@@ -1713,7 +1705,7 @@ a.btn4 {
 }
 
 .section6_bolder {
-  width: 1080px;
+  width: 1180px;
   padding-top: 103px;
   font-family: 'Work Sans';
   font-style: normal;
@@ -1727,7 +1719,7 @@ a.btn4 {
 }
 
 .service-step1 {
-  width: 1080px;
+  width: 1180px;
   padding-top: 30px;
   font-family: 'Work Sans';
   font-style: normal;
@@ -1739,7 +1731,7 @@ a.btn4 {
 }
 
 .parestep1 {
-  width: 1080px;
+  width: 1180px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 400;
@@ -1750,9 +1742,8 @@ a.btn4 {
 }
 
 .parali {
-  width: 1250px;
-  left: 101px;
-  top: 297px;
+  width: 1180px;
+ 
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 500;
