@@ -1,8 +1,13 @@
 /* .............................................Home Section.......................................... */
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
 
 * {
-  margin: 0;
-  padding: 0;
   font-family: sans-serif;
 }
 
@@ -344,18 +349,20 @@ a.btn2 {
 
 
 }
+
 .v1 {
   border-left: 0.5px solid #0D6986;
   position: absolute;
-height:14rem ;
-  width: 2% ;
- margin-left: -50px;
+  height: 14rem;
+  width: 2%;
+  margin-left: -50px;
 }
-.v2{
+
+.v2 {
   border-left: 0.5px solid #0D6986;
   position: absolute;
-  height:14rem ;
-  width: 2% ;
+  height: 14rem;
+  width: 2%;
   margin-left: -50px;
 }
 
@@ -735,7 +742,7 @@ h1.abouth2 {
 }
 
 .about-left {
-  
+
   margin-left: -100px;
   font-family: 'Work Sans';
   font-style: normal;
@@ -747,7 +754,7 @@ h1.abouth2 {
 }
 
 .aboutpara2 {
- 
+
   margin-left: 0px;
   margin-top: 15.84px;
   margin-bottom: -5px;
@@ -781,7 +788,7 @@ a.btn_about {
 }
 
 .about4-left {
-  
+
   left: 0px;
   margin-top: 50px;
   font-family: 'Work Sans';
@@ -794,7 +801,7 @@ a.btn_about {
 }
 
 .about4para {
-  
+
   margin-top: 20px;
   margin-bottom: 30px;
   font-family: 'Work Sans';
@@ -824,14 +831,17 @@ a.btn_about {
 .image7 {
   margin-top: 30px;
 }
+
 .image8 {
   margin-top: 30px;
 }
+
 .image21 {
   margin-top: 30px;
 }
+
 .about-left5 {
- margin-left: -22px;
+  margin-left: -22px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 520;
@@ -925,6 +935,27 @@ a.btn_about {
   align-items: center;
   justify-content: center;
 
+}
+
+h5.contactth {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-top: 150px;
+}
+
+h1.contactth2 {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  align-items: center;
+  letter-spacing: -0.02em;
+  margin-top: -51px;
 }
 
 .item {
@@ -1217,7 +1248,7 @@ a.frame {
 }
 
 .blog-left {
-  
+
   margin-left: -100px;
   font-family: 'Work Sans';
   font-style: normal;
@@ -1426,6 +1457,16 @@ a.frame {
   width: 50px;
 }
 
+.h5.aboutblog2 {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-top: 150px;
+}
+
 /* ------------------services (Online Company registration)-------------------------------- */
 .headerserviceonline {
   color: #FFFFFF;
@@ -1500,9 +1541,7 @@ h1.onlineh2 {
 }
 
 .serviceon-left {
-width:700px;
-  position: absolute;
- 
+  width: auto;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 600;
@@ -1527,7 +1566,6 @@ width:700px;
 
 .image9 {
   height: 80%;
-  ;
   align-items: center;
 }
 
@@ -1743,7 +1781,7 @@ a.btn4 {
 
 .parali {
   width: 1180px;
- 
+
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 500;
@@ -2200,7 +2238,7 @@ a.btn6 {
 
 .servicesIRC {
   background-color: #0D6986;
-  height: 289px;
+  height: auto;
 }
 
 .serviceIRC3 {
@@ -2466,7 +2504,7 @@ a.btn7 {
 }
 
 .serviceonlineCA {
-  margin-top: 300px;
+  margin-top: 30px;
   background-color: rgba(142, 199, 210, 0.27);
 }
 
@@ -2570,4 +2608,25 @@ a.btn7 {
   color: #FFFFFF;
 
 
+}
+
+h1.aboutblog {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  align-items: center;
+  letter-spacing: -0.02em;
+  margin-top: -51px;
+}
+
+h5.aboutblog2 {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-top: 150px;
 }
