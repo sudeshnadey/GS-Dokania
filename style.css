@@ -1,4 +1,5 @@
 /* .............................................Home Section.......................................... */
+
 html,
 body {
   width: 100%;
@@ -6,7 +7,6 @@ body {
   padding: 0px;
   overflow-x: hidden;
 }
-
 * {
   font-family: sans-serif;
 }
@@ -65,7 +65,7 @@ p {
 
 .navbar {
   position: relative;
-  padding: 20px 30px;
+  padding: 10px 20px;
   align-items: center;
   gap: 274px;
 }
@@ -90,16 +90,10 @@ p {
 
 
 .navbar-toggler span {
-  border: 0.5px;
+  border: 0px;
   background-color: white;
 }
 
-.navbar-toggler span+span {
-  width: 10px;
-  margin-left: 4px;
-  margin-top: 4px;
-  background-color: white;
-}
 
 .navbar-expand-lg .navbar-nav .nav-item .nav-link {
   color: white;
@@ -714,7 +708,7 @@ h1.abouth2 {
 .form-control {
   display: block;
   width: 90%;
-  padding: .375rem .75rem;
+  padding: .5rem .75rem;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -1367,7 +1361,7 @@ a.frame {
 }
 
 .address {
-  width: 320px;
+  width: 330px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 600;
@@ -1390,12 +1384,12 @@ a.frame {
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 15px;
+  line-height: 18px;
   display: flex;
   align-items: center;
   text-align: justify;
-  letter-spacing: -0.333333px;
+  
 
   /* Text color/2 */
   color: #746F79;
@@ -2131,7 +2125,7 @@ a.btn6 {
 }
 
 .parali6roc {
-  width: 1080;
+  width:auto;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 400;
@@ -2145,6 +2139,17 @@ a.btn6 {
 }
 
 .li6roc {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 170%;
+  align-items: center;
+  color: #746F79;
+
+
+}
+.li6roclist {
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 400;
