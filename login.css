@@ -4,14 +4,18 @@
   color: #000000;
 
 }
-
+a{
+  text-decoration: none;
+}
 .navbar2 .navbar-brand2 a {
 
   display: block;
   text-decoration: none;
   color: #000000;
 }
-
+  a:hover{
+  text-decoration: none;
+}
 h5 {
   color: #0D6986;
 
@@ -55,7 +59,7 @@ section .contentbx {
   color: #212529;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid #b9ecec;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -237,7 +241,7 @@ section .contentbx {
   width: 280px;
   margin-top: 15px;
   text-align: center;
-  margin-left: 560px;
+  margin-left: 540px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 400;
@@ -253,7 +257,45 @@ section .contentbx {
 
 
 }
+.start9{
+  width: 280px;
+  margin-top: 15px;
+  text-align: center;
+  margin-left: 590px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.025em;
+
+  color: #746F79;
+
+}
 .start5 {
+  width: 350px;
+  margin-top: 15px;
+  text-align: center;
+  margin-left: 500px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.025em;
+
+  color: #746F79;
+
+
+
+}
+.start10 {
   width: 350px;
   margin-top: 15px;
   text-align: center;
@@ -316,5 +358,47 @@ section .contentbx {
   font-weight: 500;
   font-size: 14px;
   color: #00475D;
+
+}
+.form-group1{
+  color: #00475D;
+ 
+}
+.start8 {
+  width: 250px;
+  margin-left: 160px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.333333px;
+
+  /* Text color/2 */
+  color: #746F79;
+
+
+}
+
+.create8 {
+  margin-top: 150px;
+  margin-left: 130px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 120%;
+
+  /* or 38px */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.025em;
+
+  /* Green/2 */
+  color: #0D6986;
+
 
 }

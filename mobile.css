@@ -92,6 +92,7 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+
 }
 @media (max-width: 414px) {
   h2 {
@@ -111,7 +112,10 @@ body {
     font-size: 19px;
 
   }
-
+  .fotoerres{
+    width: 50%;
+    margin-bottom: 30px;
+  }
   .fea-para {
     width: 350px;
     font-size: 16px;
@@ -178,10 +182,10 @@ body {
   }
 
   h1.abouth2 {
-    width: 200px;
+    width: 170px;
     margin-left: -90px;
     font-size: 30px;
-    line-height: 39px;
+    line-height: 59px;
   }
 
   .listhead {
@@ -323,7 +327,10 @@ body {
     font-size: 15px;
 
   }
-
+  .address3 {
+    width:360px;
+    
+  }
   .parali {
     width: auto;
     font-size: 16px;
@@ -515,7 +522,7 @@ body {
   }
 
   .services-rochead {
-    width: 400px;
+    width: 350px;
     font-size: 18px;
   }
 
@@ -641,7 +648,38 @@ body {
    margin-left:40px;
    font-size: 25px;
   }
-  
+  .start8 {
+    margin-left: 80px;
+   
+  }
+  .links{
+    margin-bottom: 80px;
+  }
+  .create8 {
+    margin-top: 70px;
+   
+   margin-left:80px;
+   font-size: 25px;
+  }
+  .start3{
+    margin-left: 50px;
+  }
+  .fea-box4{
+    margin-left: 150px;
+  }
+  .create3{
+    margin-left: 100px;
+  }
+  .btnlog2{
+    width: 280px;
+    margin-left: 50px;
+  }
+  .sdlinks{
+    margin-left: 30px;
+  }
+  .backlinks{
+    margin-left: 100px;
+  }
   .btnlog {
    width: 280px;
     margin-left: 30px;
@@ -650,8 +688,41 @@ body {
   .footer {
     margin-left: 80px;
   }
+  .create4{
+    margin-left: 50px;
+  }
+  .form-group3{
+    width: 250px;
+    margin-left: 20px;
+  }
+  .btn{
+    margin-left: 130px;
+  }
+  .services-rocCA {
+    width: 370px;
+    font-size: 20px;
+  }
+
+  .parali6roc {
+    width: 370px;
+    font-size: 16px;
+  }
+  .create5{
+    margin-left: 50px;
+  }
+  .start9{
+    margin-left: 90px;
+  }
+  .start10 {
+   
+    margin-left: 20px;
+}
 }
 @media (max-width: 360px) {
+  .fotoerres{
+    width: 60%;
+    margin-bottom: 10px;
+  }
   h2 {
     font-size: 20px;
     line-height: 39px;
@@ -705,7 +776,7 @@ body {
 
   .mid_bolder {
     width: auto;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .formbox2 {
@@ -731,15 +802,16 @@ body {
   }
 
   .abouth {
+  
     margin-left: -90px;
     font-size: 20px;
   }
 
   h1.abouth2 {
-    width: 200px;
-    margin-left: -130px;
+    width: 157px;
+    margin-left: -115px;
     font-size: 30px;
-    line-height: 39px;
+    line-height: 59px;
   }
 
   .listhead {
@@ -873,7 +945,10 @@ body {
     flex-direction: column;
 
   }
-
+  .li6roclist {
+    width: 340px;
+    font-size: 15px;
+  }
   .section6_bolder {
     width: auto;
     font-size: 20px;
@@ -1057,12 +1132,12 @@ body {
   }
 
   .services-rocCA {
-    width: 330px;
-    font-size: 18px;
+    width: 320px;
+    font-size: 19px;
   }
 
   .parali6roc {
-    width: 350px;
+    width: 330px;
     font-size: 16px;
   }
 
@@ -1107,7 +1182,7 @@ body {
   }
 
   .sectiontrad2_bolder {
-    width: 400px;
+    width: 350px;
     font-size: 20px;
   }
 
@@ -1156,7 +1231,14 @@ body {
   .blogpara4 {
     width: auto;
   }
-
+  .address3 {
+    width:330px;
+    
+  }
+  .address2 {
+    width:330px;
+    margin-left: 5px;
+  }
   .row .sand {
     justify-content: center;
 
@@ -1182,7 +1264,7 @@ body {
     flex-direction: column;
   }
   .navbar2 {
-    margin-left:150px;
+    margin-left:160px;
     
   }
   .imagelog {
@@ -1215,10 +1297,57 @@ body {
    width: 280px;
     margin-left: 30px;
   }
-  
+  .start8 {
+    margin-left: 80px;
+   
+  }
+  .links{
+    margin-bottom: 80px;
+  }
+  .create8 {
+    margin-top: 70px;
+   
+   margin-left:80px;
+   font-size: 25px;
+  }
+  .start3{
+    margin-left: 30px;
+  }
+  .start9{
+    margin-left: 70px;
+  }
+  .fea-box4{
+    margin-left: 120px;
+  }
+  .create3{
+    margin-left: 70px;
+  }
+  .btnlog2{
+    width: 270px;
+    margin-left: 40px;
+  }
+  .sdlinks{
+    margin-left: 20px;
+  }
+  .backlinks{
+    margin-left: 60px;
+  }
   .footer {
     margin-left: 80px;
   }
+  .create4{
+    margin-left: 30px;
+  }
+  .form-group3{
+    width: 250px;
+    margin-left: 20px;
+  }
+  .create5{
+    margin-left: 30px;
+  }
+  .start10 {
+    margin-left: 0px;
+}
 }
 
 

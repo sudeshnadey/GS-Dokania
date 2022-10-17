@@ -65,7 +65,7 @@ p {
 
 .navbar {
   position: relative;
-  padding: 10px 20px;
+  padding: 5px 3px;
   align-items: center;
   gap: 274px;
 }
@@ -82,18 +82,71 @@ p {
   opacity: 0.01;
 }
 
-.navbar .navbar-brand a {
-  padding: 1rem 0;
+.navbar-toggler {
+  color:#8EC7D2;
+  padding: 33px 3px;
+  border: 0 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+/* Lines of the Toggler */
+.toggler-icon{
+  width: 30px;
+  height: 3px;
+  color: white;
+  background-color: #f1f1f1;
   display: block;
-  text-decoration: none;
+  transition: all 0.2s;
 }
 
-
-.navbar-toggler span {
-  border: 0px;
-  background-color: white;
+/* Adds Space between the lines */
+.middle-bar{
+  margin: 5px auto;
 }
 
+/* State when navbar is opened (START) */
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+/* State when navbar is opened (END) */
+
+/* State when navbar is collapsed (START) */
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+/* State when navbar is collapsed (END) */
+
+/* Color of Toggler when collapsed */
+.navbar-toggler.collapsed .toggler-icon {
+  background-color: #ffffff;
+}
 
 .navbar-expand-lg .navbar-nav .nav-item .nav-link {
   color: white;
@@ -162,6 +215,7 @@ p {
   border-color: #FFFFFF;
   color: #0D6986;
   padding: 12px 28px;
+  margin-left: 100px;
   gap: 10px;
   width: 145px;
   height: 44px;
@@ -537,9 +591,8 @@ footer a:hover {
   font-family: 'Vollkorn SC';
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 22px;
-  margin-top: 78px;
   align-items: center;
   letter-spacing: -0.02em;
   color: #FFFFFF;
@@ -548,8 +601,8 @@ footer a:hover {
 }
 
 .footer-col {
-  left: 100px;
-  margin-top: 42px;
+  
+  margin-top: 8px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 600;
@@ -561,7 +614,7 @@ footer a:hover {
 }
 
 .list-unstyled {
-  margin-top: 27px;
+  margin-top: 7px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 600;
@@ -573,9 +626,7 @@ footer a:hover {
 }
 
 .break {
-  width: 209px;
-  height: 64px;
-  right: 1131px;
+  width: auto;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 500;
@@ -634,7 +685,7 @@ footer a:hover {
   content: "";
   position: absolute;
   background: linear-gradient(rgba(13, 105, 134, 0.9), rgba(13, 105, 134, 0.9)), url(image/about/bgabout.png) no-repeat center center/cover;
-  height: 450px;
+  height: 380px;
   top: 0px;
   left: 0px;
   width: 100%;
@@ -649,7 +700,7 @@ h5.abouth {
   font-size: 18px;
   line-height: 140%;
   color: #FFFFFF;
-  margin-top: 150px;
+  margin-top: 30px;
 }
 
 h1.abouth2 {
@@ -659,8 +710,9 @@ h1.abouth2 {
   font-size: 50px;
   line-height: 59px;
   align-items: center;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.02em;
   margin-top: -51px;
+ margin-bottom: 100px;
 }
 
 .image2 {
@@ -938,7 +990,7 @@ h5.contactth {
   font-size: 18px;
   line-height: 140%;
   color: #FFFFFF;
-  margin-top: 150px;
+  margin-top: 60px;
 }
 
 h1.contactth2 {
@@ -950,6 +1002,7 @@ h1.contactth2 {
   align-items: center;
   letter-spacing: -0.02em;
   margin-top: -51px;
+  margin-bottom: 50px;
 }
 
 .item {
@@ -1142,7 +1195,16 @@ h1.bloghead2 {
   color: #00475D;
 
 }
-
+a:after {
+  content: '';
+  position: absolute;
+  
+  width: 56px;
+  height: 0px;
+ 
+  background-color: rgb(236, 16, 16);
+  
+}
 a.frame {
   color: #A3A0A7;
 }
@@ -1380,12 +1442,29 @@ a.frame {
 }
 
 .address2 {
-  width: 320px;
+  width:auto;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 19px;
   line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  
+
+  /* Text color/2 */
+  color: #746F79;
+
+
+}
+.address3 {
+  width:650px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 20px;
   display: flex;
   align-items: center;
   text-align: justify;
@@ -1491,19 +1570,19 @@ h5.onlineh {
   font-size: 18px;
   line-height: 140%;
   color: #FFFFFF;
-  margin-top: 86px;
+  margin-top: 56px;
 }
 
 h1.onlineh2 {
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 35px;
   line-height: 59px;
   align-items: center;
   letter-spacing: -0.02em;
   margin-top: -10px;
-  margin-bottom: 86px;
+  margin-bottom: 100px;
 
 }
 
@@ -1535,7 +1614,7 @@ h1.onlineh2 {
 }
 
 .serviceon-left {
-  width: auto;
+  width:600px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 600;
@@ -2567,7 +2646,23 @@ a.btn7 {
   align-items: center;
   color: #FFFFFF;
 }
+.services-rochead{
+  font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 120%;
 
+/* or 38px */
+display: flex;
+align-items: center;
+letter-spacing: -0.025em;
+
+/* Green/1 */
+color: #00475D;
+
+
+}
 /* ..........................................GST-REGISTRATION................................*/
 .paraaboutGST {
   margin-top: -30px;
@@ -2645,3 +2740,15 @@ h5.aboutblog2 {
   line-height: 140%;
   color: #1a6279;
 }
+
+
+
+
+
+
+
+
+
+
+
+
